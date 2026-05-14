@@ -1,0 +1,17 @@
+# 忽略依赖目录
+hparams/
+modelscope/
+edited_gpt2_rome/
+data/
+# 忽略环境配置文件
+.env
+*.log
+
+# 忽略 IDE 配置
+.vscode/
+.idea/
+
+# 忽略编译产物
+bin/
+out/
+dist/

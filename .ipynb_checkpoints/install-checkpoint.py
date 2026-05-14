@@ -1,0 +1,4 @@
+import os
+os.environ['MODELSCOPE_CACHE'] = './modelscope'
+from modelscope import snapshot_download
+model_dir = snapshot_download('Qwen/Qwen2.5-0.5B-Instruct')
